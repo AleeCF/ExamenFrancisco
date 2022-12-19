@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+
+  <!-- Completa tu nombre -->
+  <title>Alejandro Rebola Casquero</title>
+
+  <link href="static/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="fondo_app">
+    <p> Aplicación de Dietas</p>
+    <div id="centro">
+      <table>
+        <tr>
+          <th>Nombre</th>
+          <th>Sexo</th>
+          <th>Edad</th>
+          <th>Altura</th>
+          <th>Peso</th>
+          <th>Actividad</th>
+          <th>Im Basal</th>
+          <th>Calorias Necesarias</th>
+
+        </tr>
+
+        <tr>
+          <td class="nombre">Pepe lara</td>
+          <td class="hombre">Hombre</td>
+          <td>33</td>
+          <td>22</td>
+          <td>76</td>
+          <td class="actividad">Alta</td>
+          <td>3456</td>
+          <td>4444</td>
+
+        </tr>
+        <tr>
+          <td class="nombre">Jusep Antoine</td>
+          <td class="hombre">Hombre</td>
+          <td>66</td>
+          <td>22</td>
+          <td>76</td>
+          <td class="actividad">Moderada</td>
+          <td>1234</td>
+          <td>4567</td>
+
+        </tr>
+        <tr>
+          <td class="nombre">Lara</td>
+          <td class="mujer">Mujer</td>
+          <td>66</td>
+          <td>22</td>
+          <td>43</td>
+          <td class="actividad">Alta</td>
+          <td>1234</td>
+          <td>2222</td>
+
+        </tr>
+        <tr>
+          <td class="nombre">Maria</td>
+          <td class="mujer">Mujer</td>
+          <td>66</td>
+          <td>22</td>
+          <td>76</td>
+          <td class="actividad">Alta</td>
+          <td>1334</td>
+          <td>8888</td>
+
+        </tr>
+        <tr>
+          <td class="nombre">Pepe </td>
+          <td class="hombre">Hombre</td>
+          <td>66</td>
+          <td>22</td>
+          <td>76</td>
+          <td class="actividad">Alta</td>
+          <td>1234</td>
+          <td>4444</td>
+
+        </tr>
+      </table>
+    </div>
+    <div id="boton">
+      <td><button id="modalB" type="button">Añadir Cliente</button></td>
+    </div>
+
+    <p id="nombre"> Alejandro Rebola Casquero&#169 2022</p>
+
+  </div>
+
+
+  <div id="intermodal">
+
+
+    <div id="modal">
+      <p>Nuevo Cliente</p>
+      <form>
+        <label for="name">Nombre:</label><input type="text" id="name" name="name" required><br>
+
+        <label for="Sexo">Sexo:</label>
+        <input type="radio" value="hombre" id="Sexo" name="Sexo">
+        <label for="Sexo">Hombre:</label>
+        <input type="radio" value="mujer" id="Sexo" name="Sexo"><label for="Sexo">Mujer:</label><br />
+
+        <label for="Edad">Edad:</label><input type="number" id="Edad" name="Edad" required><br />
+
+        <label for="Altura">Altura:</label><input type="number" id="Altura" name="Altura" required><br />
+
+        <label for="Peso">Peso:</label><input type="number" id="Peso" name="Peso" required><br />
+
+        <label for="Peso">Tipo Actividad:</label>
+        <select name="Actividad" id="lang" required>
+          <option value="Suave o Moderada">Suave o Sedentaria</option>
+          <option value="Moderada">Moderada</option>
+          <option value="Alta">Alta</option>
+        </select>
+      </form>
+
+      <div id="botones">
+        <input id="añadir" type="submit" value="Añadir Cliente">
+        <input id="volver" type="submit" value="Volver atras">
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <script src="static/app.js"></script>
+
+</body>
+
+</html>
