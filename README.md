@@ -1,5 +1,6 @@
 # Examen Diseño de Interfaces Web
 ## Alejandro Rebola Casquero
+##Nota Esperada: 6.
 
 ### Instrucciones:
 
