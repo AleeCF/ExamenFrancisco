@@ -67,6 +67,10 @@ select {
 
 }
 
+tr:hover {
+    background-color: orange;
+}
+
 #boton {
     margin-top: 4%;
     flex-direction: row;
