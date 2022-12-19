@@ -4,25 +4,27 @@
 html {
     height: 100%;
 }
+
 body {
     background: linear-gradient(orange, pink);
-    }
+}
 
 #fondo_app {
     border-radius: 5%;
     margin: 0px auto;
     margin-top: 5%;
     border: 1px solid black;
-    background-color: rgb(211, 199, 199);
+    background-color: lightgray;
     width: 65%;
     /* height: 60%; */
     align-items: end;
     align-content: space-around;
     margin-bottom: 8%;
 }
+
 #centro {
-display: flex;
-background-color: white;
+    display: flex;
+    background-color: white;
     height: 85%;
     width: 100%;
     flex-direction: column;
@@ -33,15 +35,18 @@ background-color: white;
 
 table {
     margin-bottom: 10%;
-        margin-top: 7%;
-        margin-left: 11%;
-        width: 80%;
-        border-collapse:  collapse;
-    }
-table td, th, tr{
-    
- border: 1px solid;
-  border-color: orange;
+    margin-top: 7%;
+    margin-left: 11%;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+table td,
+th,
+tr {
+
+    border: 1px solid;
+    border-color: orange;
 
 }
 
@@ -51,24 +56,23 @@ table th {
 }
 
 table td {
-text-align: center;   
- padding: 5px;
+    text-align: center;
+    padding: 5px;
+}
+tr:hover {
+    background-color: orange;
 }
 
 input {
     margin-left: 2%;
-margin-top: 10px;
-margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 select {
     margin-left: 2%;
     margin-bottom: 2%;
 
-}
-
-tr:hover {
-    background-color: orange;
 }
 
 #boton {
@@ -93,6 +97,7 @@ button {
     height: 10%;
     margin-bottom: 3%;
 }
+
 p {
     font-family: 'Fredoka One';
     font-size: 40px;
@@ -112,7 +117,7 @@ p {
     border-radius: 20px 20px;
     display: none;
     width: 40%;
-    background-color: rgb(192, 187, 187);
+    background-color: lightgray;
 }
 
 
@@ -147,14 +152,15 @@ form {
 #añadir {
     margin-left: 11%;
     margin-right: 10px;
-    color:white;
+    color: white;
     width: 35%;
     background-color: green;
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
 #volver {
-    color:white;
+    color: white;
     width: 35%;
     background-color: rgb(124, 124, 124);
     margin-top: 5%;
